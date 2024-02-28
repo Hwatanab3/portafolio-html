@@ -1,142 +1,133 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hiroshi Watanabe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Proyecto #001</title>
+    <link rel="stylesheet" href="estilo.css">
     <link rel="icon" href="assets/favicon-16x16.png" type="image/png">
-    <script src="https://kit.fontawesome.com/a00dbb61b0.js" crossorigin="anonymous"></script>
-<!-- para el nav-->
-    <style>
-        header {
-            position: fixed; 
-            top: 0;
-            left: 0;
-            width: 100%;
-            background-color: #f8f8fa;
-            border-bottom: 2px solid #4D5061;
-            z-index: 1000;
-        }
-        body {
-            margin-top: 80px; 
-        }
-    </style>
+
+    <!--Imagen de <a href="https://www.freepik.es/vector-gratis/fondo-abstracto-lluvia-pixeles_6148349.htm#query=codigo%20fuente&position=28&from_view=keyword&track=ais&uuid=d13f3ccf-e99f-4246-a031-4f9eab4eff8e">Freepik</a>-->
 </head>
+
 <body>
-    <header>
-    <table height="15"></table>
-        <center>
-            <table width="1000">
-                <tr height="10%">
-                    <h1 style="margin: 1px;"><td colspan="7" align="center" height="40px"><p style="color: #4D5061; font-size: 40px; margin: 1px;"><i class="fa-brands fa-html5"></i><i class="fa-solid fa-code"></i><span> DESARROLLADO EN HTML Y CSS</span><i class="fa-solid fa-code"></i><i class="fa-brands fa-html5"></i></p></td></h1>
-                </tr>
-                <tr>
-                    <th width="45%" rowspan="2" height="55px" align="left"><p style="color: #30323D; font-size: 50px; margin: 0px;">HWatanabe</p></th>              
-                    <th height="35px" align="center"><a href="#inicio"><p style="color: #E8C547; font-size: 35px; margin: 5px;"><i class="fa-solid fa-house-user"></i></p></a></th>
-                    <th height="35px" align="center"><a href="#sobremi"><p style="color: #E8C547; font-size: 35px; margin: 5px"><i class="fa-solid fa-user-tie"></i></p></a></th>
-                    <th height="35px" align="center"><a href="#skills"><p style="color: #E8C547; font-size: 35px; margin: 5px"><i class="fa-solid fa-book-journal-whills"></i></p></a></th>
-                    <th height="35px" align="center"><a href="#curriculum"><p style="color: #E8C547; font-size: 35px; margin: 5px"><i class="fa-solid fa-file"></i></p></a></th>
-                    <th height="35px" align="center"><a href="#portfolio"><p style="color: #E8C547; font-size: 35px; margin: 5px"><i class="fa-solid fa-briefcase"></i></p></a></th>
-                    <th height="35px" align="center"><a href="#contacto"><p style="color: #E8C547; font-size: 35px; margin: 5px"><i class="fa-solid fa-envelope"></i></p></a></th>
-                </tr>
-                <tr>
-                    <td align="center" height="16px"><p style="font-size: 13px; margin: 0px; font-weight: bold;">INICIO</p></td>
-                    <td align="center" height="16px"><p style="font-size: 13px; margin: 0px; font-weight: bold;">SOBRE MI</p></td>
-                    <td align="center" height="16px"><p style="font-size: 13px; margin: 0px; font-weight: bold;">HABILIDADES</P></td>
-                    <td align="center" height="16px"><p style="font-size: 13px; margin: 0px; font-weight: bold;">HOJA DE VIDA</P></td>
-                    <td align="center" height="16px"><p style="font-size: 13px; margin: 0px; font-weight: bold;">PORTAFOLIO</P></td>
-                    <td align="center" height="16px"><p style="font-size: 13px; margin: 0px; font-weight: bold;">CONTACTO</P></td>
-                </tr>
-            </table>
-        </center>
-    </header>
-    
-    <table height="100"></table>
+    <div class="informacion">
+        <p> <i class="fa-solid fa-person-digging"></i> <i class="fa-solid fa-person-digging"></i> <i
+                class="fa-solid fa-person-digging"></i> ESTE PROYECTO ESTA SIENDO DESARROLLADO EN HTML, CSS y JS <i
+                class="fa-solid fa-person-digging"></i> <i class="fa-solid fa-person-digging"></i> <i
+                class="fa-solid fa-person-digging"></i></p>
+    </div>
+    <!--MENU PARA EL ENCABEZADO-->
+    <div class="box-header">
+        <header>
+            <div class="logo">
+                <a href="#">|Hw|</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio"><i class="fa-solid fa-house-user"></i><span> INICIO</span></a></li>
+                    <li><a href="#sobremi"><i class="fa-solid fa-user-tie"></i> SOBRE MI</a></li>
+                    <li><a href="#habilidades"><i class="fa-solid fa-book-journal-whills"></i> HABILIDADES</a></li>
+                    <li><a href="#hojaDeVida"><i class="fa-solid fa-file"></i> HOJA DE VIDA</a></li>
+                    <li><a href="#portafolio"><i class="fa-solid fa-briefcase"></i> PORTFOLIO</a></li>
+                    <li><a href="#contacto"><i class="fa-solid fa-envelope"></i> CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-adaptativo">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
 
-    <section id="inicio">
-                <center>
-                    <img src="assets/img1.png" alt="" height="400">
-                    
-                    <table height="15"></table>
-
-                    <table align="center" width="400">
-                        <tr >
-                            <td colspan="6" style=" margin: 0px;"><img src="assets/nombre.png" alt="Hiroshi Watanabe" height="80px" ></td>
-                        </tr>
-                        <tr>
-                            <td colspan="6" align="center" style= "margin: 0px;"><p style="font-style: italic; font-size: 20px; margin: 0px;">SER HUMANO | ARQUITECTO | PROGRMADOR EN FORMACIÓN</p></td>
-                        </tr>
-                        <tr>
-                            <th><a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><p style="color: #E8C547; font-size: 35px; margin: 5px;"><i class="fa-brands fa-meta"></i></p></a></th>
-                            <th><a href="https://twitter.com/home" target="_blank" rel="noopener noreferrer"><p style="color: #E8C547; font-size: 35px; margin: 5px;"><i class="fa-brands fa-x-twitter"></i></p></a></th>
-                            <th><a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer"><p style="color: #E8C547; font-size: 35px; margin: 5px;"><i class="fa-brands fa-linkedin"></i></p></a></th>
-                            <th><a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><p style="color: #E8C547; font-size: 35px; margin: 5px;"><i class="fa-brands fa-youtube"></i></p></a></th>
-                            <th><a href="https://www.twitch.tv/" target="_blank" rel="noopener noreferrer"><p style="color: #E8C547; font-size: 35px; margin: 5px;"><i class="fa-brands fa-twitch"></i></p></a></th>
-                            <th><a href="https://github.com/" target="_blank" rel="noopener noreferrer"><p style="color: #E8C547; font-size: 35px; margin: 5px;"><i class="fa-brands fa-github"></i></p></a></th>
-                        </tr>
-                    </table>
-                </center>
+    <!-- SECCION DEL INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenedor-banner">
+            <div class="contenedor-img">
+                <img src="assets/img1.png" alt="Fotografia de Hiroshi Watanabe">
+            </div>
+            <h1>HIROSHI WATANABE</h1>
+            <h2>DESARROLLADOR WEB | FULL STACK | PROGRAMADOR</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><i
+                        class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
     </section>
-    
+
+    <!-- ACA ESTA EL CODIGO ANTERIOR -->
+
+    <div class="frase">
+        <hr>
+        <p>"El hombre que mueve una montaña</p>
+        <p>comienza cargando <strong>PEQUEÑAS</strong> piedras".</p>
+        <p class="confucio">Confucio</p>
+        <hr>
+    </div>
+
+
+
     <table height="60"></table>
 
-    <hr>
-    <center>
-        <table>
-            <tr>
-                <td align="center"><font size="5"><i>"El hombre que mueve una montaña </i></font></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td align="center"><font size="5"><i>comienza cargando <strong>PEQUEÑAS</strong> piedras".</i></font></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td><strong>Confucio</strong></td>
-            </tr>
-        </table>
-    </center>
-    <hr>
-        
-    <table height="60"></table>
-
-    <section id="sobremi">    
+    <section id="sobremi">
         <center>
             <table width="1000">
                 <tr>
-                    <th width="68%" align="center"><h2>SOBRE MI</h2></th>
+                    <th width="68%" align="center">
+                        <h2>SOBRE MI</h2>
+                    </th>
                     <th></th>
-                    <th width="29%" align="center"><h2>DATOS PERSONALES</h2></th>
+                    <th width="29%" align="center">
+                        <h2>DATOS PERSONALES</h2>
+                    </th>
                 </tr>
                 <tr height="10"></tr>
                 <tr>
-                    <td align="justified"><i>Bienvenido, soy <strong>Hiroshi Watanabe</strong>.</i> Basicamente soy un ser humano, y como tal trato de mejorar mi potencial todo lo posible con diferentes habilidades y conocimientos que puedan ser de utilidad a las personas de mi entorno. <br>
-                    <br>
-                    Actualmente estoy aprendiendo sobre programación en diferentes lenguajes y sus herramientas, me apasiona la tecnologia y la construcción, tanto me gusta la construcción que tambien soy arquitecto. <br>
-                    <br>
-                    Me gusta el modelado 3D, juegos sobre administración de recursos y resolución de problemas, optimizacion y supervivencia, el anime, la meditación y la lectura. <br>
-                    <br>
-                    Mi personalidad es <strong>INTP</strong> conocidos por su profundo pensamiento analítico y su curiosidad insaciable. Tendemos a ser introvertidos, prefiriendo la reflexión interna sobre la interacción social extensa. Somos excelentes solucionadores de problemas, disfrutando de desafíos intelectuales complejos. A veces pueden parecer distantes o despreocupados debido a su enfoque en el mundo interno de ideas y teorías. <br>
-                    <br>
-                    Mi Eneagrama es <strong>5w4</strong>, usualmente somos introspectivos y creativos, con un profundo deseo de comprender el mundo que nos rodea. Somos observadores perspicaces valoramos la autenticidad y la originalidad en sí mismos y en los demás. A menudo nos sentimos más cómodos en nuestro mundo interior, donde podemos explorar nuestros pensamientos y emociones de manera creativa. Sin embargo, también podemos luchar contra sentimientos de alienación o desconexión debido a su sensibilidad y necesidad de espacio personal.
-                </td>
+                    <td align="justified"><i>Bienvenido, soy <strong>Hiroshi Watanabe</strong>.</i> Basicamente soy un
+                        ser humano, y como tal trato de mejorar mi potencial todo lo posible con diferentes habilidades
+                        y conocimientos que puedan ser de utilidad a las personas de mi entorno. <br>
+                        <br>
+                        Actualmente estoy aprendiendo sobre programación en diferentes lenguajes y sus herramientas, me
+                        apasiona la tecnologia y la construcción, tanto me gusta la construcción que tambien soy
+                        arquitecto. <br>
+                        <br>
+                        Me gusta el modelado 3D, juegos sobre administración de recursos y resolución de problemas,
+                        optimizacion y supervivencia, el anime, la meditación y la lectura. <br>
+                        <br>
+                        Mi personalidad es <strong>INTP</strong> conocidos por su profundo pensamiento analítico y su
+                        curiosidad insaciable. Tendemos a ser introvertidos, prefiriendo la reflexión interna sobre la
+                        interacción social extensa. Somos excelentes solucionadores de problemas, disfrutando de
+                        desafíos intelectuales complejos. A veces pueden parecer distantes o despreocupados debido a su
+                        enfoque en el mundo interno de ideas y teorías. <br>
+                        <br>
+                        Mi Eneagrama es <strong>5w4</strong>, usualmente somos introspectivos y creativos, con un
+                        profundo deseo de comprender el mundo que nos rodea. Somos observadores perspicaces valoramos la
+                        autenticidad y la originalidad en sí mismos y en los demás. A menudo nos sentimos más cómodos en
+                        nuestro mundo interior, donde podemos explorar nuestros pensamientos y emociones de manera
+                        creativa. Sin embargo, también podemos luchar contra sentimientos de alienación o desconexión
+                        debido a su sensibilidad y necesidad de espacio personal.
+                    </td>
                     <td></td>
                     <td align="left">
                         <ul>
                             <li><strong>Cumpleaños</strong>
-                            29-06-1987</li>
+                                29-06-1987</li>
                             <li><strong>Teléfono</strong>
-                            +51 999777888</li>
+                                +51 999777888</li>
                             <li><strong>Email</strong>
-                            Hwatanabe@example.com</li>
+                                Hwatanabe@example.com</li>
                             <li><strong>Website</strong>
-                            www.example.com</li>
+                                www.example.com</li>
                             <li><strong>Dirección</strong>
-                            Jr. Ejemplo Nº 999 Huánuco - Perú</li>
+                                Jr. Ejemplo Nº 999 Huánuco - Perú</li>
                             <li><strong>Cargo</strong>
-                            Humano</li>
+                                Humano</li>
                         </ul>
                     </td>
                 </tr>
@@ -144,32 +135,55 @@
 
             <table height="60"></table>
 
-<!-- Bloque de Intereses -->
+            <!-- Bloque de Intereses -->
             <table>
                 <tr>
-                    <td align="center" width="1000" colspan="7"><font size="5.5">ESTO ME INTERESA</font></td>
+                    <td align="center" width="1000" colspan="7">
+                        <font size="5.5">ESTO ME INTERESA</font>
+                    </td>
                 </tr>
                 <tr height="10"></tr>
                 <tr align="center" width="1000">
-                    <td><b><font size="4" color="#285172"><i class="fa-solid fa-gamepad"></i> | JUEGOS |</font></b></td>
-                    <td><b><font size="4" color="#285172"><i class="fa-solid fa-book"></i> | LECTURA |</font></b></td>
-                    <td><b><font size="4" color="#285172"><i class="fa-solid fa-tv"></i> | ANIME |</font></b></td>
-                    <td><b><font size="4" color="#285172"><i class="fa-solid fa-headphones"></i> | METAL |</font></b></td>
-                    <td><b><font size="4" color="#285172"><i class="fa-solid fa-helmet-safety"></i> | ARQUITECTURA |</font></b></td>
-                    <td><b><font size="4" color="#285172"><i class="fa-solid fa-brain"></i><span> | MEDITAR |</font></b></td>
-                    <td><b><font size="4" color="#285172"><i class="fa-solid fa-bed"></i><span> | DORMIR</font></b></td>
-                </tr>                
+                    <td><b>
+                            <font size="4" color="#285172"><i class="fa-solid fa-gamepad"></i> | JUEGOS |</font>
+                        </b></td>
+                    <td><b>
+                            <font size="4" color="#285172"><i class="fa-solid fa-book"></i> | LECTURA |</font>
+                        </b></td>
+                    <td><b>
+                            <font size="4" color="#285172"><i class="fa-solid fa-tv"></i> | ANIME |</font>
+                        </b></td>
+                    <td><b>
+                            <font size="4" color="#285172"><i class="fa-solid fa-headphones"></i> | METAL |</font>
+                        </b></td>
+                    <td><b>
+                            <font size="4" color="#285172"><i class="fa-solid fa-helmet-safety"></i> | ARQUITECTURA |
+                            </font>
+                        </b></td>
+                    <td><b>
+                            <font size="4" color="#285172"><i class="fa-solid fa-brain"></i><span> | MEDITAR |</font>
+                        </b></td>
+                    <td><b>
+                            <font size="4" color="#285172"><i class="fa-solid fa-bed"></i><span> | DORMIR</font>
+                        </b></td>
+                </tr>
                 <tr height="15"></tr>
                 <tr>
-                    <td colspan="7" align="center"><i class="fa-solid fa-arrow-right"></i><span>  </span><i class="fa-solid fa-arrow-right"></i><span>  </span><a href="#"><i class="fa-solid fa-file-arrow-down"></i></a><span>  </span><i class="fa-solid fa-arrow-left"></i><span>  </span><i class="fa-solid fa-arrow-left"></i><span> DESCARGA MI CV - 100% GRATIS|FREE - NO FAKE - </span><i class="fa-brands fa-reddit-alien"></i><span> MARCIANITO VERDE </span><i class="fa-brands fa-reddit-alien"></i></td>
+                    <td colspan="7" align="center"><i class="fa-solid fa-arrow-right"></i><span> </span><i
+                            class="fa-solid fa-arrow-right"></i><span> </span><a href="#"><i
+                                class="fa-solid fa-file-arrow-down"></i></a><span> </span><i
+                            class="fa-solid fa-arrow-left"></i><span> </span><i
+                            class="fa-solid fa-arrow-left"></i><span> DESCARGA MI CV - 100% GRATIS|FREE - NO FAKE -
+                        </span><i class="fa-brands fa-reddit-alien"></i><span> MARCIANITO VERDE </span><i
+                            class="fa-brands fa-reddit-alien"></i></td>
                 </tr>
             </table>
-        </center>    
+        </center>
     </section>
-    
+
     <table height="60"></table>
-    
-    <section id="skills">  
+
+    <section id="skills">
         <center>
             <table width="900">
                 <caption>
@@ -222,7 +236,7 @@
             </table>
         </center>
     </section>
-    
+
     <table height="60"></table>
 
     <section id="curriculum">
@@ -237,29 +251,56 @@
                     <th align="left">Experiencia</th>
                 </tr>
                 <tr>
-                    <td><b><font size="2">WEB FULLSTACK</font></b><br>
-                    <b><font size="3" color="Blue">ACADEMLO</font></b><br>
-                    <font size="2">2024</font><br>
-                    <font size="3">Curso de Desarrollo Web Full-Stack y Ciencias de la Computación; JavaScript, Html, CSS, React, API, Bases de Datos y Desarrollo, Construcción de API's y Seguridad</font></td>
+                    <td><b>
+                            <font size="2">WEB FULLSTACK</font>
+                        </b><br>
+                        <b>
+                            <font size="3" color="Blue">ACADEMLO</font>
+                        </b><br>
+                        <font size="2">2024</font><br>
+                        <font size="3">Curso de Desarrollo Web Full-Stack y Ciencias de la Computación; JavaScript,
+                            Html, CSS, React, API, Bases de Datos y Desarrollo, Construcción de API's y Seguridad</font>
+                    </td>
                     <td width="50"></td>
-                    <td><b><font size="2">JAVASCRIPT DEVELOPER</font></b><br>
-                    <b><font size="3" color="Blue">FREELANCE</font></b><br>
-                    <font size="2">2024</font><br>
-                    <font size="3">Responsable del diseño, desarrollo y mantenimiento de sitios web, así como del desarrollo de nuevas funciones orientadas al usuario asegurarndo una navegación sencilla para el usuario.</font></td>
+                    <td><b>
+                            <font size="2">JAVASCRIPT DEVELOPER</font>
+                        </b><br>
+                        <b>
+                            <font size="3" color="Blue">FREELANCE</font>
+                        </b><br>
+                        <font size="2">2024</font><br>
+                        <font size="3">Responsable del diseño, desarrollo y mantenimiento de sitios web, así como del
+                            desarrollo de nuevas funciones orientadas al usuario asegurarndo una navegación sencilla
+                            para el usuario.</font>
+                    </td>
                 </tr>
                 <tr height="15"></tr>
                 <tr>
-                    <td><b><font size="2">ARQUITECTURA</font></b><br>
-                    <b><font size="3" color="Blue">UNIVERSIDAD DE HUÁNUCO</font></b><br>
-                    <font size="2">EGRESADO 2019</font><br>
-                    <font size="3">Egresado del Programa Academico Profesional de Arquitectura, Facultad de Ingenieria de la Universidad de Huánuco</font></td>
+                    <td><b>
+                            <font size="2">ARQUITECTURA</font>
+                        </b><br>
+                        <b>
+                            <font size="3" color="Blue">UNIVERSIDAD DE HUÁNUCO</font>
+                        </b><br>
+                        <font size="2">EGRESADO 2019</font><br>
+                        <font size="3">Egresado del Programa Academico Profesional de Arquitectura, Facultad de
+                            Ingenieria de la Universidad de Huánuco</font>
+                    </td>
                     <td width="50"></td>
-                    <td><b><font size="2">ASISTENTE TÉCNICO</font></b><br>
-                    <b><font size="3" color="Blue">MUNICIPALIDAD DISTRITAL SAN PEDRO DE CHAULAN</font></b><br>
-                    <font size="2">2023</font><br>
-                    <font size="3">Responsable de la proyección de material tecnico como informes, evaluaciones de Expedientes Técnicos, Valorizaciones, Liquidaciones, Visitas Técnicas a Proyectos de Inversión Pública, Licencias de Edificación, Metrados, Valorizaciones, Gestión del archivo de Sub Gerencia de Infraestructura, Desarrollo Urbano y Rural.</font></td>
+                    <td><b>
+                            <font size="2">ASISTENTE TÉCNICO</font>
+                        </b><br>
+                        <b>
+                            <font size="3" color="Blue">MUNICIPALIDAD DISTRITAL SAN PEDRO DE CHAULAN</font>
+                        </b><br>
+                        <font size="2">2023</font><br>
+                        <font size="3">Responsable de la proyección de material tecnico como informes, evaluaciones de
+                            Expedientes Técnicos, Valorizaciones, Liquidaciones, Visitas Técnicas a Proyectos de
+                            Inversión Pública, Licencias de Edificación, Metrados, Valorizaciones, Gestión del archivo
+                            de Sub Gerencia de Infraestructura, Desarrollo Urbano y Rural.</font>
+                    </td>
                 </tr>
-                
+
             </table>
         </center>
     </section>
@@ -267,4 +308,5 @@
     <table height="60"></table>
 
 </body>
+
 </html>
