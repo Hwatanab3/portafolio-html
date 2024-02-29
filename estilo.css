@@ -70,6 +70,7 @@ html {
     padding: 3px;
     transition: .7s;
     text-decoration: none;
+    font-size: 12px;
 }
 
 .box-header header nav ul li a:hover {
