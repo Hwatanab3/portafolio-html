@@ -15,12 +15,14 @@ html {
 /* AVISO DE DESARROLLO*/
 .informacion {
     background: #32203C;
-    display: inline-block;
+    display: block;
     width: 100%;
-    max-height: 25px;
-    align-items: center;
+    height: 25px;
     position: fixed;
     z-index: 100;
+    margin: auto;
+    overflow: auto;
+    /* Cambiarlo cuando se adapte*/
 }
 
 .informacion p {
@@ -28,8 +30,7 @@ html {
     text-align: center;
     color: #f5f5f5;
     font-weight: bolder;
-    margin: auto;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 /* MENU */
@@ -42,7 +43,7 @@ html {
 }
 
 .box-header header {
-    max-width: 1200px;
+    width: 1000px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -166,7 +167,7 @@ html {
 }
 
 .celebre .frase p.confucio {
-    max-width: 1100px;
+    max-width: 600px;
     text-align: right;
     text-decoration: none;
     font-weight: bolder;
