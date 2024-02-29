@@ -168,8 +168,8 @@ html {
 }
 
 .celebre .frase {
-    height: 30vh;
-    margin-top: 10px;
+    height: 200px;
+    margin-top: 20px;
     display: block;
     margin: 0px auto;
     font-size: 20px;
@@ -196,13 +196,14 @@ html {
 .sobremi {
     background-color: #201923;
     color: #fff;
-    padding: 50px 20px;
+    padding: 20px 20px;
 }
 
 .sobremi .contenedor-seccion {
     max-width: 940px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .sobremi h2 {
@@ -292,9 +293,10 @@ html {
     border: 2px solid #fff;
     width: fit-content;
     display: block;
-    margin: 20px auto;
+    margin: 80px auto;
     padding: 10px 22px;
-    font-size: 16px;
+    font-size: 25px;
+    font-family: 'Rubik Mono One';
     color: #fff;
     position: relative;
     z-index: 10;
@@ -314,4 +316,79 @@ html {
 
 .sobremi button:hover .overlay {
     width: 100%;
+}
+
+/* HABILIDADES */
+
+.habilidades {
+    background-color: #201923;
+    color: #fff;
+    padding: 20px 20px;
+}
+
+.habilidades .contenedor-seccion {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.habilidades h2 {
+    font-size: 35px;
+    font-family: 'Rubik Mono One';
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 80px;
+}
+
+.habilidades .fila {
+    display: flex;
+}
+
+.habilidades .fila .col {
+    width: 50%;
+    padding: 0 20px;
+}
+
+.habilidades .fila .col h3 {
+    font-size: 22px;
+    font-family: 'Rubik Mono One';
+    margin-bottom: 25px;
+}
+
+.habilidades img {
+    height: 180px;
+    margin: 10% 2%;
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.habilidades .fila .col .contenedor-profesionales {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.habilidades .fila .col .contenedor-profesionales .profesionales {
+    width: 45%;
+    height: 80px;
+    background-color: #1e2326;
+    border-radius: 10px;
+    margin: 0 10px 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+    font-size: 12px;
+}
+
+.habilidades .fila .col .contenedor-profesionales .profesionales i {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.habilidades .fila .col .contenedor-profesionales .profesionales:hover {
+    background-color: #E8C547;
 }
