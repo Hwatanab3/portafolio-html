@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rubik+Mono+One&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rubik+Mono+One&display=swap'); */
 
 * {
     box-sizing: border-box;
@@ -609,7 +609,8 @@ html {
 .contacto h2 {
     font-size: 35px;
     font-family: 'Rubik Mono One';
-    color: #fffthnk text-align: center;
+    color: #fff;
+    text-align: center;
     padding: 20px 0;
     margin-bottom: 20px;
 }
@@ -643,6 +644,13 @@ html {
     color: #fff;
     font-size: 12px;
 }
+
+.contacto .col input,
+.contacto .col .mensaje {
+    overflow: auto;
+    resize: none;
+}
+
 
 .contacto button {
     cursor: pointer;
@@ -707,4 +715,94 @@ html {
     color: #E8C547;
     display: inline-block;
     margin-right: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #32203C;
+    color: #fff;
+    padding: 25px 0 25px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+
+}
+
+footer .contenedor-seccion {
+    width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: self-end;
+}
+
+footer .minicontenedor {
+    text-align: left;
+    width: 40%;
+    display: inline-block;
+    justify-content: left;
+    margin-right: 120px;
+}
+
+footer .autor {
+    display: inline;
+    font-size: 30px;
+    /* font-family: 'Rubik Mono One'; */
+    color: #E8C547;
+}
+
+
+footer .autor-especial {
+    font-size: 25px;
+    font-family: 'Rubik Mono One';
+    color: #E8C547;
+}
+
+footer .autor .dev {
+    font-size: 15px;
+    /* font-family: 'Rubik Mono One'; */
+    color: #fff;
+}
+
+footer .redes {
+    margin-bottom: 2px;
+
+}
+
+footer .redes a {
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    line-height: 58px;
+    margin: 0 0;
+    font-size: 40px;
+    transition: .3s;
+
+}
+
+
+
+footer .arriba {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #E8C547;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -25px;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+footer .redes a:hover {
+    background-color: #E8C547;
 }
