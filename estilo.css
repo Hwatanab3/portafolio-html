@@ -392,3 +392,319 @@ html {
 .habilidades .fila .col .contenedor-profesionales .profesionales:hover {
     background-color: #E8C547;
 }
+
+/* HOJA DE VIDA */
+
+.hojadevida {
+    background-color: #201923;
+    color: #fff;
+    padding: 20px 20px;
+}
+
+.hojadevida .contenedor-seccion {
+    max-width: 900px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+
+.hojadevida h2 {
+    font-size: 35px;
+    font-family: 'Rubik Mono One';
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 80px;
+}
+
+.hojadevida .fila {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hojadevida .fila .col {
+    width: 49%;
+    padding: 0 20px;
+}
+
+.hojadevida .fila .col h3 {
+    font-size: 22px;
+    font-family: 'Rubik Mono One';
+    margin-bottom: 25px;
+}
+
+.hojadevida .fila .izquierda {
+    border-right: 2px solid #1e2326;
+}
+
+.hojadevida .fila .derecha {
+    border-left: 2px solid #1e2326;
+}
+
+.hojadevida .fila .item {
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: #1e2326;
+    position: relative;
+}
+
+.hojadevida .fila .item h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.hojadevida .fila .item .casa {
+    color: #E8C547;
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+}
+
+.hojadevida .fila .item .fecha {
+    display: block;
+    color: #E8C547;
+    margin-bottom: 10px;
+}
+
+.hojadevida .fila .item p {
+    line-height: 24px;
+}
+
+.hojadevida .fila .izq {
+    border-right: 2px solid #E8C547;
+    margin-right: 20px;
+}
+
+.hojadevida .fila .der {
+    border-left: 2px solid #E8C547;
+    margin-left: 20px;
+}
+
+.hojadevida .fila .item .conectori {
+    height: 2px;
+    background-color: #E8C547;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    right: -47px;
+    z-index: 5;
+}
+
+.hojadevida .fila .item .circuloi {
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #E8C547;
+    float: right;
+    position: relative;
+    bottom: 4px;
+}
+
+.hojadevida .fila .item .conectord {
+    height: 2px;
+    background-color: #E8C547;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    left: -47px;
+    z-index: 5;
+}
+
+.hojadevida .fila .item .circulod {
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #E8C547;
+    float: left;
+    position: relative;
+    bottom: 4px;
+}
+
+/* PORTFOLIO */
+
+.portfolio {
+    background-color: #201923;
+    color: #32203C;
+    padding: 20px 20px;
+}
+
+.portfolio .contenedor-seccion {
+    max-width: 900px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.portfolio h2 {
+    font-size: 35px;
+    font-family: 'Rubik Mono One';
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 80px;
+}
+
+.portfolio .galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfolio .galeria .proyecto {
+    position: relative;
+    max-width: 280px;
+    height: fit-content;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.portfolio .galeria .proyecto img {
+    width: 100%;
+}
+
+.portfolio .galeria .proyecto .overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: linear-gradient(#E8C547, #E8C547);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 1s;
+    font-size: 18px;
+    letter-spacing: 3px;
+    opacity: 0;
+}
+
+.portfolio .galeria .proyecto .overlay h3 {
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+.portfolio .galeria .proyecto .overlay:hover {
+    opacity: .70;
+}
+
+.portfolio .galeria .proyecto .overlay:hover h3 {
+    margin-bottom: 0px;
+}
+
+/* CONTACTO */
+
+.contacto {
+    background-image: url();
+    background-color: #201923;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.contacto .contenedor-seccion {
+    max-width: 950px;
+    margin: auto;
+}
+
+.contacto h2 {
+    font-size: 35px;
+    font-family: 'Rubik Mono One';
+    color: #fffthnk text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.contacto .fila {
+    display: flex;
+}
+
+.contacto .col {
+    width: 40%;
+    padding: 10px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.contacto .colu {
+    width: 60%;
+    padding: 10px;
+    display: block;
+    position: relative;
+}
+
+.contacto .col input,
+.contacto .col textarea {
+    display: block;
+    width: 100%;
+    padding: 18px;
+    border: none;
+    margin-bottom: 10px;
+    background-color: #1e2326;
+    color: #fff;
+    font-size: 12px;
+}
+
+.contacto button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 15px;
+    font-family: 'Rubik Mono One';
+    color: #fff;
+    position: relative;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.contacto button .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #E8C547;
+    z-index: -1;
+    transition: 1s;
+}
+
+.contacto button:hover .overlay {
+    width: 100%;
+}
+
+.contacto img {
+    margin-top: 10%;
+    width: 550px;
+}
+
+.contacto .colu img {
+    width: 100%;
+}
+
+.contacto .colu .info {
+    position: absolute;
+    top: 40%;
+    background-color: #1e2326;
+    padding: 20px;
+    max-width: 250px;
+    left: 25%;
+    border-radius: 5%;
+    transform: traslate(-50%, -50%);
+}
+
+.contacto .contenedor-seccion .fila .colu .info ul {
+    list-style: none;
+}
+
+.contacto .colu .info ul li {
+    margin-bottom: 10px;
+}
+
+.contacto .colu .info ul li i {
+    color: #E8C547;
+    display: inline-block;
+    margin-right: 10px;
+}
