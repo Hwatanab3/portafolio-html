@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rubik+Mono+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Proyecto #001</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="assets/icono.png">
+</head>
+
+<body>
+    <!--MENU PARA EL ENCABEZADO-->
+    <div class="box-header">
+        <header>
+            <div class="logo">
+                <a href="#"><span class="caracter">{</span>HW<span class="caracter">}</span><span
+                        class="dev">dev</span></a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()"><i class="fa-solid fa-house-user"></i><span>
+                                INICIO</span></a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()"><i class="fa-solid fa-user-tie"></i> SOBRE MI</a>
+                    </li>
+                    <li><a href="#habilidades" onclick="seleccionar()"><i class="fa-solid fa-book-journal-whills"></i>
+                            HABILIDADES</a></li>
+                    <li><a href="#hojadevida" onclick="seleccionar()"><i class="fa-solid fa-file"></i> HOJA DE VIDA</a>
+                    </li>
+                    <li><a href="#portfolio" onclick="seleccionar()"><i class="fa-solid fa-briefcase"></i> PORTFOLIO</a>
+                    </li>
+                    <li><a href="#contacto" onclick="seleccionar()"><i class="fa-solid fa-envelope"></i> CONTACTO</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="nav-adaptativo" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION DEL INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenedor-banner">
+            <div class="contenedor-img">
+                <img src="assets/img1.png" alt="Fotografía de Hiroshi Watanabe">
+            </div>
+            <h1>HIROSHI WATANABE</h1>
+            <h2>DESARROLLADOR WEB | FULL STACK | PROGRAMADOR</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><i
+                        class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FRASE CELEBRE -->
+    <div class="celebre">
+        <div class="frase">
+            <hr>
+            <br>
+            <p>"El hombre que mueve una montaña</p>
+            <p>comienza cargando <strong>PEQUEÑAS</strong> piedras".</p>
+            <p class="confucio">Confucio</p>
+            <br>
+            <hr>
+        </div>
+    </div>
+
+    <!--  SECCION SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenedor-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>hola, soy Hiroshi Watanabe</span> pero prefiero
+                que me llamen <span>Hiro</span>. Estudie Arquitectura y, después de un tiempo haciendo modelado y
+                renderizado 3D, me
+                pasé al mundo
+                de la Programación. Desde entonces disfruto creando experiencias web para los usuarios. </p>
+
+            <p>Entre mis éxitos destaco que durante mi camino como programador, apoye a mis compañeros a aprender sobre
+                diferentes lenguajes de programación. Me fascina el FrontEnd, aunque no dejo abandonado el BackEnd creo
+                que es de vital importancia el valor
+                de la experiencia del usuario.</p>
+
+            <p>Cuento con experiencia desarrollando aplicaciones web, y mi sueño es crear una organización para fusionar
+                mis dos pasiones: la programación y la arquitectura. Ayudaría a la sociedad la divulgación del diseño
+                Arquitectónico y Urbanístico.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li><strong>Cumpleaños</strong>
+                            29-06-1987</li>
+                        <li><strong>Teléfono</strong>
+                            +51 999777888</li>
+                        <li><strong>Email</strong>
+                            Hw@example.com</li>
+                        <li><strong>Website</strong>
+                            www.example.com</li>
+                        <li><strong>Dirección</strong>
+                            Jr. Ejemplo Nº 999 Example City - Example Land</li>
+                        <li><span>DISPONIBLE PARA TRABAJAR</span></li>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Mis Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="intereses">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LECTURA</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-tv"></i>
+                            <span>ANIME</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>METAL</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-helmet-safety"></i>
+                            <span>ARQ.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descarga mi CV <i class="fa-solid fa-file-arrow-down"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+
+    </section>
+
+    <!-- SECCION HABILIDADES -->
+    <section id="habilidades" class="habilidades">
+        <div class="contenedor-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- HABILIDADES TECNICAS-->
+                <div class="col">
+                    <h3>Tecnologías</h3>
+                    <div class="contenedor-habilidades">
+                        <div class="habiilidades">
+                            <img src="assets/html.png" alt="html">
+                            <img src="assets/css.png" alt="css">
+                            <img src="assets/js.png" alt="javascript">
+                        </div>
+                    </div>
+                </div>
+                <!-- HABILIDADES PROFESIONALES -->
+                <div class="col">
+                    <h3>Profesionales</h3>
+                    <div class="contenedor-profesionales">
+                        <div class="profesionales">
+                            <i class="fa-solid fa-brain"></i>
+                            <span>PENSAMIENTO CRÍTICO</span>
+                        </div>
+                        <div class="profesionales">
+                            <i class="fa-regular fa-lightbulb"></i>
+                            <span>CREATIVO</span>
+                        </div>
+                        <div class="profesionales">
+                            <i class="fa-solid fa-people-group"></i>
+                            <span>LIDERAZGO</span>
+                        </div>
+                        <div class="profesionales">
+                            <i class="fa-solid fa-person-arrow-up-from-line"></i>
+                            <span>AUTO-DESARROLLO</span>
+                        </div>
+                        <div class="profesionales">
+                            <i class="fa-regular fa-handshake"></i>
+                            <span>RESOLUCIÓN DE PROBLEMAS</span>
+                        </div>
+                        <div class="profesionales">
+                            <i class="fa-solid fa-glasses"></i>
+                            <span>APRENDIZAJE RÁPIDO</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- SECCION HOJA DE VIDA -->
+    <section id="hojadevida" class="hojadevida">
+        <div class="contenedor-seccion">
+            <h2>Hoja de Vida</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>WEB FULLSTACK</h4>
+                        <span class="casa">ACADEMLO</span>
+                        <span class="fecha">2024</span>
+                        <p>Curso de Desarrollo Web Full-Stack y Ciencias de la Computación; JavaScript, Html, CSS,
+                            React, API, Bases de Datos y Desarrollo, Construcción de API's y Seguridad</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>WEB FULLSTACK</h4>
+                        <span class="casa">ACADEMLO</span>
+                        <span class="fecha">2024</span>
+                        <p>Curso de Desarrollo Web Full-Stack y Ciencias de la Computación; JavaScript, Html, CSS,
+                            React, API, Bases de Datos y Desarrollo, Construcción de API's y Seguridad</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia</h3>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">FREELANCE</span>
+                        <span class="fecha">2024</span>
+                        <p>Responsable del diseño, desarrollo y mantenimiento de sitios web, así como del
+                            desarrollo de nuevas funciones orientadas al usuario asegurando una navegación sencilla
+                            para el usuario</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>WEB FULLSTACK</h4>
+                        <span class="casa">ACADEMLO</span>
+                        <span class="fecha">2024</span>
+                        <p>Responsable del diseño, desarrollo y mantenimiento de sitios web, así como del
+                            desarrollo de nuevas funciones orientadas al usuario asegurando una navegación sencilla
+                            para el usuario</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenedor-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="assets/p1.png" alt="">
+                    <div class="overlay">
+                        <h3>ICHIKA NAKANO</h3>
+                        <P>The Quintessential Quintuplets</P>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="assets/p2.png" alt="">
+                    <div class="overlay">
+                        <h3>NINO NAKANO</h3>
+                        <P>The Quintessential Quintuplets</P>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="assets/p3.png" alt="">
+                    <div class="overlay">
+                        <h3>MIKU NAKANO</h3>
+                        <P>The Quintessential Quintuplets</P>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="assets/p4.png" alt="">
+                    <div class="overlay">
+                        <h3>YOTSUBA NAKANO</h3>
+                        <P>The Quintessential Quintuplets</P>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="assets/p5.png" alt="">
+                    <div class="overlay">
+                        <h3>ITSUKI NAKANO</h3>
+                        <P>The Quintessential Quintuplets</P>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="assets/p6.png" alt="">
+                    <div class="overlay">
+                        <h3>HARUHI SUZUMIYA</h3>
+                        <P>LA DIOSA HARUHI</P>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenedor-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea class="mensaje" name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje <i class="fa-regular fa-comments"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <div class="colu">
+                    <img src="assets/mapa.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-house-user"></i>
+                                Jr. Ejemplo Nº 999 Example City - Example Land
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                                Llámame: 999 888 777
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-envelope"></i>
+                                Email: HW@example.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#inicio" class="arriba"><i class="fa-solid fa-arrows-up-to-line"></i>
+        </a>
+        <div class="contenedor-seccion">
+            <div class="minicontenedor">
+                <div class="redes">
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><i
+                            class="fa-brands fa-linkedin"></i></a>
+
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><i
+                            class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="contenedor-autor">
+                <span class="autor">{<span class="autor-especial">HW</span>} <span class="dev">DEV
+                        |</span></span><span> © 2023 — Todos los derechos
+                    reservados.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
